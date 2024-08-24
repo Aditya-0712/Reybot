@@ -12,3 +12,18 @@
     font-family: geist-med;
     src: url("./Geist-Medium.ttf");
 }
+
+@font-face {
+    font-family: epilogue-bold;
+    src: url("./Epilogue-Bold.ttf");
+}
+
+@font-face {
+    font-family: epilogue-reg;
+    src: url("./Epilogue-Regular.ttf");
+}
+
+@font-face {
+    font-family: epilogue-med;
+    src: url("./Epilogue-Medium.ttf");
+}

@@ -1,11 +1,12 @@
 import "./landing.css";
 import Navbar from "../components/navbar/Navbar";
+import Hero from "../components/hero/Hero";
 
 function Landing(){
     return (
         <div className="landing">
             <Navbar />
-            <div className="hero"></div>
+            <Hero />
         </div>
     );
 }

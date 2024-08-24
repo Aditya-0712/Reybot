@@ -1,0 +1,48 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    margin:175px auto auto 100px;
+}
+
+.left .p1{
+    display: flex;
+    font:18px epilogue-med;
+    margin: 0 auto 0 0;
+    color:white;
+    letter-spacing: 1.2px;
+}
+
+.left .p2{
+    display: flex;
+    font:48px epilogue-bold;
+    color:white;
+    margin:25px auto 0 0;
+    letter-spacing: 1.5px;
+}
+
+.left .p2 span{color:#9AFECF; margin:0; margin-right: 15px;}
+
+.left .p3{
+    font:14px epilogue-reg;
+    color:rgba(255, 255, 255, 0.6);
+    margin: 10px auto 0 0;
+    letter-spacing: 1.5px;
+    line-height: 17px;
+}
+
+.left .getstarted{
+    display: flex;
+    font:14px epilogue-med;
+    text-decoration: none;
+    color:#0D100E;
+    background-color: #62E4A4;
+    margin: 60px auto 0 0;
+    border-radius: 50px;
+    padding: 11px 25px 9px 25px;
+}
+
+.left .p4{
+    font:14px epilogue-reg;
+    color:rgba(255, 255, 255, 0.7);
+    margin: 20px auto auto 0;
+}
