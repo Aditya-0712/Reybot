@@ -5,6 +5,7 @@
     cursor: pointer;
     max-height: 45px;
     user-select: none;
+    z-index: 1;
 }
 
 .dropdown .front{
@@ -36,6 +37,7 @@
     margin:0;
     padding: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
-.dropdown .below img:hover{background-color: rgba(0, 0, 0, 0.1);}
+.dropdown .below img:hover{background-color: rgb(220, 220, 220);}
