@@ -31,7 +31,7 @@ function Dropdown(){
     }
 
     const renderOpts = arr.map((x, ind) =>{
-        return (<div onClick={() =>{handleSelect(x.one)}}><img src={x.one} alt="flag"/><p>{x.two}</p></div>);
+        return (<div onClick={() =>{handleSelect(x.one)}} key={ind}><img src={x.one} alt="flag"/><p>{x.two}</p></div>);
     })
 
     return (

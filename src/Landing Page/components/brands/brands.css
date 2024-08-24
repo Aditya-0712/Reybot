@@ -1,12 +1,12 @@
 .brands{
     display: flex;
     width: 100%;
-    padding: 45px 0;
+    padding: 2.96vw 0 2.4vw 0;
     background-color: #EAFFB2;
 }
 
 .brands img{
-    width: 280px;
+    width: 18.4vw;
     height:auto;
-    margin-left: 85px;
+    margin-left: 5.59vw;
 }

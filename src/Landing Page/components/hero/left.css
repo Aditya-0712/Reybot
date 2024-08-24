@@ -1,50 +1,50 @@
 .left{
     display: flex;
     flex-direction: column;
-    margin:175px 0 auto 100px;
+    margin:11.5vw 0 auto 6.57vw;
 }
 
 .left .p1{
     display: flex;
-    font:18px epilogue-med;
+    font:1.18vw epilogue-med;
     margin: 0 auto 0 0;
     color:white;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.08vw;
 }
 
 .left .p2{
     display: flex;
-    font:48px epilogue-bold;
+    font:3.15vw epilogue-bold;
     color:white;
-    margin:25px auto 0 0;
-    letter-spacing: 1.5px;
+    margin:1.64vw auto 0 0;
+    letter-spacing: 0.1vw;
 }
 
-.left .p2 span{color:#9AFECF; margin:0; margin-right: 15px;}
+.left .p2 span{color:#9AFECF; margin:0; margin-right: 0.99vw;}
 
 .left .p3{
-    font:14px epilogue-reg;
+    font:0.92vw epilogue-reg;
     color:rgba(255, 255, 255, 0.6);
-    margin: 10px auto 0 0;
-    letter-spacing: 1.5px;
-    line-height: 17px;
+    margin: 0.66vw auto 0 0;
+    letter-spacing: 0.1vw;
+    line-height: 1.12vw;
 }
 
 .left .getstarted{
     display: flex;
-    font:14px epilogue-med;
+    font:0.92vw epilogue-med;
     text-decoration: none;
     color:#0D100E;
     background-color: #62E4A4;
-    margin: 60px auto 0 0;
-    border-radius: 50px;
-    padding: 11px 25px 9px 25px;
+    margin: 3.94vw auto 0 0;
+    border-radius: 3.29vw;
+    padding: 0.72vw 1.64vw 0.59vw 1.64vw;
 }
 
 .left .getstarted:hover{background-color: #47b27d;}
 
 .left .p4{
-    font:14px epilogue-reg;
+    font:0.92vw epilogue-reg;
     color:rgba(255, 255, 255, 0.7);
-    margin: 20px auto auto 0;
+    margin: 1.31vw auto auto 0;
 }

@@ -7,10 +7,10 @@ import brand4 from "../../../images/forBrands/brand4.png";
 function Brands(){
     return (
         <div className="brands">
-            <img src={brand1} alt="brand" style={{width:"204px", height:"48px"}}/>
-            <img src={brand2} alt="brand" style={{width:"234px", height:"54px"}}/>
-            <img src={brand3} alt="brand" style={{width:"330px", height:"55px"}}/>
-            <img src={brand4} alt="brand" style={{width:"281px", height:"42px"}}/>
+            <img src={brand1} alt="brand" style={{width:"13.41vw", height:"3.15vw"}}/>
+            <img src={brand2} alt="brand" style={{width:"15.38vw", height:"3.55vw"}}/>
+            <img src={brand3} alt="brand" style={{width:"21.69vw", height:"3.61vw"}}/>
+            <img src={brand4} alt="brand" style={{width:"18.47vw", height:"2.76vw"}}/>
         </div>
     );
 }
