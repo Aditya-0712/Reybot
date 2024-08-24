@@ -7,7 +7,7 @@ function Right(){
     return (
         <div className="right">
             <img className="whatsapp" src={whatsapp} alt="whatsapp" /> 
-            <img className="chatpic" src={chat} alt="chat picture" />
+            <img className="chatpic" src={chat} alt="chat" />
             <img className="chat3d" src={chat3d} alt="chat emoji" />
         </div>
     );
