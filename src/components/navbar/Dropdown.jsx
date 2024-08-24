@@ -11,6 +11,7 @@ function Dropdown(){
     const [top, setTop] = useState(UK);
     const [isOpen, setOpen] = useState(false);
     const [anim, setAnim] = useState("none");
+    const arr = [{one:India, two:"IN"}, {one:Germany, two:"GR"}, {one:US, two:"US"}, {one:Aus, two:"AU"}, {one:UK, two:"UK"}];
 
     const handleClick = () =>{
         if (isOpen){
@@ -29,6 +30,10 @@ function Dropdown(){
         setAnim("none");
     }
 
+    const renderOpts = arr.map((x, ind) =>{
+        return (<div onClick={() =>{handleSelect(x.one)}}><img src={x.one} alt="flag"/><p>{x.two}</p></div>);
+    })
+
     return (
         <div className="dropdown">
             <div className="front" onClick={handleClick}>
@@ -37,11 +42,7 @@ function Dropdown(){
             </div>
             {isOpen && (
                 <div className="below">
-                    <img src={India} alt="flag" onClick={() =>{handleSelect(India)}}/>
-                    <img src={US} alt="flag" onClick={() =>{handleSelect(US)}} />
-                    <img src={Germany} alt="flag" onClick={() =>{handleSelect(Germany)}} />
-                    <img src={Aus} alt="flag" onClick={() =>{handleSelect(Aus)}} />
-                    <img src={UK} alt="flag" onClick={() =>{handleSelect(UK)}} />
+                    {renderOpts}
                 </div>
             )}
         </div>
