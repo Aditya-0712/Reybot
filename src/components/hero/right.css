@@ -1,0 +1,23 @@
+.right{
+    display: flex;
+    margin: 80px auto auto 120px;
+    height: fit-content;
+}
+
+.right .whatsapp{
+    width:62px;
+    height: 62px;
+    margin:0 0 auto 0;
+}
+
+.right .chatpic{
+    width:372px;
+    height: 480px;
+    margin: 80px 0 0 10px;
+}
+
+.right .chat3d{
+    width:111px;
+    height:111px;
+    margin:auto 0 45px 20px;
+}

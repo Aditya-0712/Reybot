@@ -1,7 +1,7 @@
 .left{
     display: flex;
     flex-direction: column;
-    margin:175px auto auto 100px;
+    margin:175px 0 auto 100px;
 }
 
 .left .p1{
@@ -40,6 +40,8 @@
     border-radius: 50px;
     padding: 11px 25px 9px 25px;
 }
+
+.left .getstarted:hover{background-color: #47b27d;}
 
 .left .p4{
     font:14px epilogue-reg;
