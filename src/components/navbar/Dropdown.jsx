@@ -10,26 +10,30 @@ import Aus from "../../images/forNavbar/Australia.png";
 function Dropdown(){
     const [top, setTop] = useState(UK);
     const [isOpen, setOpen] = useState(false);
+    const [anim, setAnim] = useState("none");
 
     const handleClick = () =>{
         if (isOpen){
             setOpen(false);
+            setAnim("none");
         }
         else{
             setOpen(true);
+            setAnim("rotate(180deg)")
         }
     }
 
     const handleSelect = (val) =>{
         setTop(val);
         setOpen(false);
+        setAnim("none");
     }
 
     return (
         <div className="dropdown">
             <div className="front" onClick={handleClick}>
                 <img src={top} alt="flag" className="flag"/>
-                <img src={arrow} alt="arrow" className="arrow"/>
+                <img src={arrow} alt="arrow" className="arrow" style={{transform:anim}}/>
             </div>
             {isOpen && (
                 <div className="below">

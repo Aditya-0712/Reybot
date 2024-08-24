@@ -24,11 +24,13 @@
 .dropdown .front .arrow{
     width: 17px;
     margin: auto 0 auto 15px;
+    transition: 0.2s;
 }
 
 .dropdown .below{
     display: flex;
     flex-direction: column;
+    transition: 1s;
 }
 
 .dropdown .below img{

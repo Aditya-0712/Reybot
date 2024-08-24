@@ -1,0 +1,14 @@
+@font-face {
+    font-family: geist-bold;
+    src: url("./Geist-Bold.ttf");
+}
+
+@font-face {
+    font-family: geist-reg;
+    src: url("./Geist-Regular.ttf");
+}
+
+@font-face {
+    font-family: geist-med;
+    src: url("./Geist-Medium.ttf");
+}
