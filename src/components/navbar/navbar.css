@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    width:100%;
+    padding: 20px 0;
+    /* background-color: bisque; */
+    margin: 0;
+}
+
+.navbar .logo{
+    width: 120px;
+    height: auto;
+    margin:auto 0 auto 100px;
+}
+
+.navbar .links{
+    display: flex;
+    margin: auto 0 auto 200px;
+}
+
+.navbar .mode{
+    width:25px;
+    height: 25px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    margin:auto 0 auto 100px;
+}
+
+.navbar .mode:hover{background-color: rgba(0, 0, 0, 0.1);}
