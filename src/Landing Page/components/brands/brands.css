@@ -1,0 +1,12 @@
+.brands{
+    display: flex;
+    width: 100%;
+    padding: 45px 0;
+    background-color: #EAFFB2;
+}
+
+.brands img{
+    width: 280px;
+    height:auto;
+    margin-left: 85px;
+}
