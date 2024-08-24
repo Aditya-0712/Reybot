@@ -7,7 +7,7 @@ function Group1(){
         <div className="group1">
             <p className="heading">GROW YOUR BUSINESS FAST</p>
             <p className="bold">Packed with All</p>
-            <p className="bold" style={{color:"#0ED171", marginTop:"5px"}}>Essential Integrations</p>
+            <p className="bold" style={{color:"#0ED171", marginTop:"0.329vw"}}>Essential Integrations</p>
             <p className="desc">Your all-in-one solution, packed with essential integrations</p>
 
             <Link to="" className="a"><p>Know more</p><img src={rightArrow} alt="arrow" /></Link>

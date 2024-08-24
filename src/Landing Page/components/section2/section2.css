@@ -3,13 +3,13 @@
     width: 100%;
     margin: 0;
     background-image: url("../../../images/forSection2/Frame.png");
-    height: 430px;
+    height: 28.33vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .section2 .adcard{
-    margin:auto 145px 50px auto;
-    width: 422px;
-    height: 309px;
+    margin:auto 9.55vw 3.29vw auto;
+    width: 27.8vw;
+    height: 20.31vw;
 }
