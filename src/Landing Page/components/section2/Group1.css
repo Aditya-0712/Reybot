@@ -1,0 +1,47 @@
+.group1{
+    display: flex;
+    flex-direction: column;
+    margin:110px 0 auto 120px;
+}
+
+.group1 .heading{
+    font:16px geist-med;
+    color:#455A64;
+    margin:0 auto 0 0;
+    letter-spacing: 1.5px;
+}
+
+.group1 .bold{
+    font:42px epilogue-bold;
+    color:black;
+    margin:10px auto 0 0;
+}
+
+.group1 .desc{
+    font:14px geist-reg;
+    color:#455A64;
+    letter-spacing: 1px;
+    margin: 40px auto 0 0;
+}
+
+.group1 .a{
+    display: flex;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+    background-color: #022634;
+    margin:40px auto 0 0;
+}
+
+.group1 .a:hover{background-color: #0b3d4f;}
+
+.group1 .a p{
+    font:18px geist-reg;
+    letter-spacing: 1.5px;
+    color:#0DD171;
+    margin:auto 0;
+}
+
+.group1 .a img{
+    margin: auto 0 auto 10px;
+}
