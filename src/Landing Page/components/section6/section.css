@@ -11,46 +11,46 @@
 .section6 .sec6pt1{
     display: flex;
     flex-direction: column;
-    margin:60px 0 auto 15px;
+    margin:3.94vw 0 auto 0.99vw;
 }
 
 .section6 .sec6pt1 img:nth-child(1){
-    width:90px;
-    height:90px;
-    margin:0 auto 0 90px;
+    width:5.92vw;
+    height:5.92vw;
+    margin:0 auto 0 5.92vw;
 }
 
 .section6 .sec6pt1 img:nth-child(2){
-    width: 400px;
+    width: 26.29vw;
     height: auto;
-    margin:50px 0 0 40px;
+    margin:3.29vw 0 0 2.63vw;
 }
 
 .section6 .sec6pt2{
     display: flex;
     flex-direction: column;
-    margin:80px 0 auto 0;
+    margin:5.26vw 0 auto 0;
 }
 
 .section6 .sec6pt2 .heading{
-    font:40px epilogue-bold;
+    font:2.63vw epilogue-bold;
     margin:0 auto;
     color:white;
-    letter-spacing: 1.1px;
+    letter-spacing: 0.07vw;
 }
 
 .section6 .sec6pt2 .desc{
-    font:16px epilogue-reg;
+    font:1.05vw epilogue-reg;
     color:white;
-    margin:60px auto 0 auto;
+    margin:3.94vw auto 0 auto;
     text-align: center;
-    max-width: 650px;
-    letter-spacing: 1.2px;
+    max-width: 42.73vw;
+    letter-spacing: 0.08vw;
 }
 
 .section6 .sec6pt2 .box{
     display: flex;
-    margin:100px auto auto auto;
+    margin:6.57vw auto auto auto;
 }
 
 .section6 .sec6pt2 .box div{
@@ -60,19 +60,19 @@
 }
 
 .section6 .sec6pt2 .box div p:nth-child(1){
-    font:42px epilogue-bold;
+    font:2.76vw epilogue-bold;
     color:white;
     margin:0 auto;
 }
 
 .section6 .sec6pt2 .box div p:nth-child(2){
-    font:14px epilogue-reg;
+    font:0.92vw epilogue-reg;
     color:#0DD171;
-    margin:15px auto 0 auto;
+    margin:0.99vw auto 0 auto;
 }
 
 .section6 .sec6pt3{
-    width:220px;
-    height:220px;
-    margin:auto 100px 80px auto;
+    width:14.46vw;
+    height:14.46vw;
+    margin:auto 6.57vw 5.26vw auto;
 }
