@@ -1,22 +1,22 @@
 .featurecard{
     display: flex;
     flex-direction: column;
-    width: 185px;
-    height: 185px;
+    width: 12.16vw;
+    height: 12.16vw;
     background-color: #022634;
     margin:0;
 }
 
 .featurecard img{
-    width: 65px;
-    height: 65px;
-    margin: 30px auto 0 auto;
+    width: 4.27vw;
+    height: 4.27vw;
+    margin: 1.97vw auto 0 auto;
 }
 
 .featurecard p{
-    font:17px epilogue-reg;
+    font:1.12vw epilogue-reg;
     color:white;
-    margin:25px auto auto auto;
+    margin:1.64vw auto auto auto;
     max-width: 90%;
     text-align: center;
 }

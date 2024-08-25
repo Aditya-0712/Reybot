@@ -2,7 +2,7 @@
     display: flex;
     width:100%;
     margin: 0;
-    background-image: url("../../../images/forSection3/Frame\ 2.png");
+    background-image: url("../../../images/forSection3/Frame 2.png");
     background-size: cover;
     height: fit-content;
 }
@@ -11,36 +11,36 @@
     display: flex;
     flex-direction: column;
     background-color: #022634;
-    width:580px;
-    height:400px;
-    margin:80px 0 80px 130px;
+    width:38.12vw;
+    height:26.3vw;
+    margin:5.26vw 0 5.26vw 8.54vw;
 }
 
 .section3 .features p:nth-child(1), .section3 .features p:nth-child(2){
-    font:40px epilogue-bold;
+    font:2.63vw epilogue-bold;
     color:white;
-    margin:60px auto 0 40px;
+    margin:3.94vw auto 0 2.63vw;
 }
 
 .section3 .features p:nth-child(2){
-    margin-top: 5px;
+    margin-top: 0.33vw;
     color: #0DD171;
 }
 
 .section3 .features p:nth-child(3){
-    font:17px epilogue-reg;
-    margin:20px auto auto 40px;
+    font:1.12vw epilogue-reg;
+    margin:1.31vw auto auto 2.63vw;
     color:white;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    line-height: 23px;
+    letter-spacing: 0.07vw;
+    word-spacing: 0.13vw;
+    line-height: 1.51vw;
     max-width: 85%;
 }
 
 .section3 .wrap{
     display: flex;
     flex-wrap: wrap;
-    margin:auto auto auto 30px;
-    gap:30px;
-    max-width: 700px;
+    margin:auto auto auto 1.97vw;
+    gap:1.97vw;
+    max-width: 45.99vw;
 }
