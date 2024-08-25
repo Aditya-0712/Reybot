@@ -3,6 +3,6 @@
     background-image: url("../../images/forHero/herobg.png");
     margin:0;
     width:100%;
-    height:fit-content;
+    height:calc(100vh - 5.586vw);
     background-size: cover;
 }
