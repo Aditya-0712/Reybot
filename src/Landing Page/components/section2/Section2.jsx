@@ -1,6 +1,6 @@
 import "./section2.css";
 import Group1 from "./Group1";
-import adcard from "../../../images/forSection2/card.png";
+import adcard from "../../images/forSection2/card.png";
 
 function Section2(){
     return (

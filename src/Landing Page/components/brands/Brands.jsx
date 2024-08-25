@@ -1,8 +1,8 @@
 import "./brands.css";
-import brand1 from "../../../images/forBrands/brand1.png";
-import brand2 from "../../../images/forBrands/brand2.png";
-import brand3 from "../../../images/forBrands/brand3.png";
-import brand4 from "../../../images/forBrands/brand4.png";
+import brand1 from "../../images/forBrands/brand1.png";
+import brand2 from "../../images/forBrands/brand2.png";
+import brand3 from "../../images/forBrands/brand3.png";
+import brand4 from "../../images/forBrands/brand4.png";
 
 function Brands(){
     return (

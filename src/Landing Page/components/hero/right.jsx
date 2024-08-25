@@ -1,7 +1,7 @@
 import "./right.css";
-import whatsapp from "../../../images/forHero/whatsapp.png";
-import chat from "../../../images/forHero/chat.png";
-import chat3d from "../../../images/forHero/chat3d.png";
+import whatsapp from "../../images/forHero/whatsapp.png";
+import chat from "../../images/forHero/chat.png";
+import chat3d from "../../images/forHero/chat3d.png";
 
 function Right(){
     return (

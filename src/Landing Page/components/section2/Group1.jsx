@@ -1,6 +1,6 @@
 import "./Group1.css";
 import { Link } from "react-router-dom";
-import rightArrow from "../../../images/forSection2/Arrow Right.svg";
+import rightArrow from "../../images/forSection2/Arrow Right.svg";
 
 function Group1(){
     return (

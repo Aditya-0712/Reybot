@@ -1,11 +1,11 @@
 import { useState } from "react";
-import arrow from "../../../images/forNavbar/arrow.svg";
-import UK from "../../../images/forNavbar/United Kingdom.png";
+import arrow from "../../images/forNavbar/arrow.svg";
+import UK from "../../images/forNavbar/United Kingdom.png";
 import "./dropdown.css";
-import India from "../../../images/forNavbar/India.png";
-import US from "../../../images/forNavbar/US.png";
-import Germany from "../../../images/forNavbar/Germany.png";
-import Aus from "../../../images/forNavbar/Australia.png";
+import India from "../../images/forNavbar/India.png";
+import US from "../../images/forNavbar/US.png";
+import Germany from "../../images/forNavbar/Germany.png";
+import Aus from "../../images/forNavbar/Australia.png";
 
 function Dropdown(){
     const [top, setTop] = useState(UK);

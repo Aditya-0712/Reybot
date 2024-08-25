@@ -1,11 +1,11 @@
 import "./section3.css";
-import broadcast from "../../../images/forSection3/broadcast.svg";
+import broadcast from "../../images/forSection3/broadcast.svg";
 import FeatureCard from "./FeatureCard";
-import book from "../../../images/forSection3/book.svg";
-import msg from "../../../images/forSection3/msg.svg";
-import phone from "../../../images/forSection3/phone.svg";
-import mail from "../../../images/forSection3/mail.svg";
-import settings from "../../../images/forSection3/settings.svg";
+import book from "../../images/forSection3/book.svg";
+import msg from "../../images/forSection3/msg.svg";
+import phone from "../../images/forSection3/phone.svg";
+import mail from "../../images/forSection3/mail.svg";
+import settings from "../../images/forSection3/settings.svg";
 
 function Section3(){
     const arr = [{url:broadcast, text:"Broadcast"}, {url:msg, text:"Chatbots"}, {url:book, text:"Create Custom Templates"}, {url:phone, text:"Customer Care"}, {url:settings, text:"Automated Follow Ups"}, {url:mail, text:"AI Generated Lead Generation"}];

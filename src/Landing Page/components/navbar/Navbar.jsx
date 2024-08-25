@@ -1,7 +1,7 @@
 import "./navbar.css";
-import logo from "../../../images/forNavbar/logo.png";
+import logo from "../../images/forNavbar/logo.png";
 import Link from "./Link";
-import moon from "../../../images/forNavbar/moon.svg";
+import moon from "../../images/forNavbar/moon.svg";
 import Dropdown from "./Dropdown";
 import GreenButton from "./GreenButton";
 
