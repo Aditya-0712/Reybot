@@ -8,6 +8,12 @@ import mail from "../../../images/forSection3/mail.svg";
 import settings from "../../../images/forSection3/settings.svg";
 
 function Section3(){
+    const arr = [{url:broadcast, text:"Broadcast"}, {url:msg, text:"Chatbots"}, {url:book, text:"Create Custom Templates"}, {url:phone, text:"Customer Care"}, {url:settings, text:"Automated Follow Ups"}, {url:mail, text:"AI Generated Lead Generation"}];
+
+    const renderCards = arr.map((x, ind) =>{
+        return <FeatureCard imgUrl={x.url} text={x.text} key={ind}/>;
+    })
+
     return (
         <div className="section3">
             <div className="features">
@@ -16,12 +22,7 @@ function Section3(){
                 <p>Lorem ipsum dolor sit amet consectetur. Facilisis turpis eu pulvinar nibh nunc viverra sit pulvinar in. Cursus mauris congue habitant </p>
             </div>
             <div className="wrap">
-                <FeatureCard imgUrl={broadcast} text="Broadcast" />
-                <FeatureCard imgUrl={msg} text="Chatbots" />
-                <FeatureCard imgUrl={book} text="Create Custom Templates" />
-                <FeatureCard imgUrl={phone} text="Customer Care" />
-                <FeatureCard imgUrl={settings} text="Automated Follow Ups" />
-                <FeatureCard imgUrl={mail} text="AI Generated Lead Generation" />
+                {renderCards}
             </div>
         </div>
     );
