@@ -27,3 +27,8 @@
     font-family: epilogue-med;
     src: url("./Epilogue-Medium.ttf");
 }
+
+@font-face {
+    font-family: epilogue-semibold;
+    src: url("./Epilogue-SemiBold.ttf");
+}
