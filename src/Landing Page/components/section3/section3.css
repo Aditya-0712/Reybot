@@ -1,0 +1,46 @@
+.section3{
+    display: flex;
+    width:100%;
+    margin: 0;
+    background-image: url("../../../images/forSection3/Frame\ 2.png");
+    background-size: cover;
+    height: fit-content;
+}
+
+.section3 .features{
+    display: flex;
+    flex-direction: column;
+    background-color: #022634;
+    width:580px;
+    height:400px;
+    margin:80px 0 80px 130px;
+}
+
+.section3 .features p:nth-child(1), .section3 .features p:nth-child(2){
+    font:40px epilogue-bold;
+    color:white;
+    margin:60px auto 0 40px;
+}
+
+.section3 .features p:nth-child(2){
+    margin-top: 5px;
+    color: #0DD171;
+}
+
+.section3 .features p:nth-child(3){
+    font:17px epilogue-reg;
+    margin:20px auto auto 40px;
+    color:white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 23px;
+    max-width: 85%;
+}
+
+.section3 .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto auto auto 30px;
+    gap:30px;
+    max-width: 700px;
+}
