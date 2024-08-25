@@ -5,7 +5,7 @@ function Section5(){
     return (
         <div className="section5">
             <p className="heading">YOUR AI POWERED BUSINESS</p>
-            <p className="heading" style={{color:"#0DD171", marginTop:"5px"}}>GROWTH PARTNER <span>NEW</span></p>
+            <p className="heading" style={{color:"#0DD171", marginTop:"0.329vw"}}>GROWTH PARTNER <span>NEW</span></p>
 
             <div className="unit">
                 <div className="leftp">
