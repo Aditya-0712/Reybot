@@ -1,16 +1,16 @@
 .maincard{
     display:flex;
     flex-wrap: wrap;
-    column-gap: 40px;
-    margin:0 auto 90px auto;
+    column-gap: 2.63vw;
+    margin:0 auto 5.92vw auto;
 }
 
 .maincard p{
-    font:18px geist-reg;
+    font:1.18vw geist-reg;
     color:#455a64c2;
-    max-width: 320px;
+    max-width: 21.03vw;
     background-color: white;
-    padding: 30px 20px;
+    padding: 1.97vw 1.31vw;
     margin:0;
-    border-radius: 5px;
+    border-radius: 0.33vw;
 }
