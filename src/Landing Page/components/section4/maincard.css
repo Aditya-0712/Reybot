@@ -1,0 +1,16 @@
+.maincard{
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    margin:0 auto 90px auto;
+}
+
+.maincard p{
+    font:18px geist-reg;
+    color:#455a64c2;
+    max-width: 320px;
+    background-color: white;
+    padding: 30px 20px;
+    margin:0;
+    border-radius: 5px;
+}

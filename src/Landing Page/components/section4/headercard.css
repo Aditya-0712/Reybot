@@ -1,0 +1,33 @@
+.headercard{
+    display: flex;
+    background-color: white;
+    margin: 50px auto 0 auto;
+    flex-wrap: wrap;
+    column-gap:120px;
+    padding: 25px 80px 0 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 2px #0DC70026;
+    z-index: 1;
+}
+
+.headercard div{
+    display: flex;
+    margin:0;
+    padding-bottom: 22px;
+    border-bottom: 3px solid #3DDA8D;
+}
+
+.headercard div p:nth-child(1){
+    font:18px geist-med;
+    color:#02232F;
+    padding: 10px 11px;
+    border-radius: 50px;
+    border:1px solid #455a6466;
+    margin:auto 0;
+}
+
+.headercard div p:nth-child(2){
+    font:18px geist-med;
+    color:#02232F;
+    margin:auto 0 auto 10px;
+}
