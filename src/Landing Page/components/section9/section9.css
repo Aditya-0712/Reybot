@@ -8,15 +8,15 @@
 }
 
 .section9 .heading{
-    font:24px epilogue-reg;
+    font:1.58vw epilogue-reg;
     color:black;
-    margin:50px auto 0 auto;
+    margin:3.29vw auto 0 auto;
 }
 
 .section9 .title{
-    font:45px epilogue-bold;
+    font:2.96vw epilogue-bold;
     color:#022634;
-    margin:20px auto 0 auto;
+    margin:1.32vw auto 0 auto;
     text-align: center;
 }
 
@@ -25,7 +25,7 @@
     background-color:#022634;
     padding:0.66vw 1.97vw;
     border-radius: 20px;
-    margin:25px auto 0 auto;
+    margin:1.64vw auto 0 auto;
 }
 
 .section9 .link:hover{
