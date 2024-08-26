@@ -1,0 +1,52 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    margin:50px auto 70px auto;
+    width:900px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.faqcard{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 2px;
+    border-top: 0.8px solid #455A644D
+}
+
+.faqcard .front{
+    display: flex;
+    width:100%;
+    margin:0;
+}
+
+.faqcard .front p{
+    font:20px epilogue-reg;
+    margin:auto 0 auto 70px;
+    color:#455A64;
+    max-width: 660px;
+    line-height: 30px;
+}
+
+.faqcard .front img{
+    width: 25px;
+    height: 25px;
+    margin:auto 50px auto auto;
+    padding:10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.faqcard .front img:hover{background-color: rgba(0, 0, 0, 0.1);}
+
+.faqcard .content{
+    max-width: 750px;
+    margin:20px auto 0 70px;
+    font:17px epilogue-reg;
+    color: #455A64;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
