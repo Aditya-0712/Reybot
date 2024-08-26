@@ -9,50 +9,55 @@
 .section8 .sec8pt1{
     display: flex;
     flex-direction: column;
-    margin:100px 0 100px 120px;
+    margin:6.58vw 0 6.58vw 7.89vw;
 }
 
 .section8 .sec8pt1 p:nth-child(1), .section8 .sec8pt1 p:nth-child(2){
-    font:35px epilogue-bold;
+    font:2.3vw epilogue-bold;
     color:white;
     margin:0 auto 0 0;
 }
 
-.section8 .sec8pt1 p:nth-child(2){color:#0DD171; margin-top: 7px;}
+.section8 .sec8pt1 p:nth-child(2){
+    color:#0DD171;
+    margin-top: 0.46vw;
+}
 
 .section8 .sec8pt1 p:nth-child(3){
-    margin:20px auto 0 0;
+    margin:1.32vw auto 0 0;
     color:white;
-    font:16px epilogue-reg;
-    max-width: 470px;
+    font:1.05vw epilogue-reg;
+    max-width: 30.92vw;
 }
 
 .section8 .vector{
-    width:290px;
-    height: 290px;
-    margin:auto 0 auto 120px;
+    width:19.08vw;
+    height: 19.08vw;
+    margin:auto 0 auto 7.89vw;
 }
 
 .section8 .link{
     display: flex;
     background-color: #0DD171;
-    box-shadow: 0px -1px 11.4px 0px #0DD171;
-    padding:10px 30px;
+    box-shadow: 0px -0.07vw 0.75vw 0px #0DD171;
+    padding:0.66vw 1.97vw;
     border-radius: 20px;
-    margin:auto auto auto 150px;
+    margin:auto auto auto 9.87vw;
 }
 
-.section8 .link:hover{background-color: #12a15c;}
+.section8 .link:hover{
+    background-color: #12a15c;
+}
 
 .section8 .link p{
-    font:15px geist-med;
+    font:0.99vw geist-med;
     color:#00202C;
     margin:auto 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.07vw;
 }
 
 .section8 .link img{
-    width:20px;
+    width:1.32vw;
     height: auto;
-    margin:auto 0 auto 10px;
+    margin:auto 0 auto 0.66vw;
 }
