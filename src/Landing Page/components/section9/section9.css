@@ -44,3 +44,17 @@
     height: auto;
     margin:auto 0 auto 0.66vw;
 }
+
+.section9 .oval1{
+    width:14.47vw;
+    height:14.47vw;
+    margin:0 auto -14.47vw 0;
+    user-select: none;
+}
+
+.section9 .oval2{
+    width:14.47vw;
+    height:14.47vw;
+    margin:-14.47vw 0 0 auto;
+    user-select: none;
+}
