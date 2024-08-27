@@ -10,11 +10,8 @@ import Section6 from "./components/section6/Section6";
 import Section7 from "./components/section7/Section7";
 import Section8 from "./components/section8/Section8";
 import Section9 from "./components/section9/Section9";
-<<<<<<< HEAD
-=======
 import Section10 from "./components/section10/Section10";
 import Credits from "./components/credits/Credits";
->>>>>>> eb790e9 (backup)
 import "./fonts/fonts.css";
 
 function Landing(){
@@ -31,11 +28,8 @@ function Landing(){
             <Section7 />
             <Section8 />
             <Section9 />
-<<<<<<< HEAD
-=======
             <Section10 />
             <Credits />
->>>>>>> eb790e9 (backup)
         </div>
     );
 }
