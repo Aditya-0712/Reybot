@@ -1,0 +1,75 @@
+.upper{
+    display: flex;
+    width:100%;
+    height:fit-content;
+    margin: 0;
+}
+
+.upper .pt1up{
+    display: flex;
+    flex-direction: column;
+    margin:auto 0 auto 3.94vw;
+}
+
+.upper .pt1up img{
+    width:6.57vw;
+    height: auto;
+    margin:0 auto 0 0;
+}
+
+.upper .pt1up p{
+    font:0.92vw epilogue-semibold;
+    color:#9B9CB1;
+    margin:1.31vw 0 0 0;
+}
+
+.upper .pt2up{
+    display: flex;
+    flex-direction: column;
+    margin:4.60vw 0 6.57vw 13.14vw;
+}
+
+.upper .pt2up p{
+    font:1.44vw epilogue-med;
+    color:#383C4E;
+    margin:0 auto 1.31vw 0;
+}
+
+.upper .pt2up .lnk{
+    font:0.85vw epilogue-med;
+    color:#9495AC;
+    margin:1.97vw auto 0 0;
+    text-decoration: none;
+}
+
+.upper .pt2up form{
+    display: flex;
+    margin:1.97vw auto 0 0;
+    border-radius: 3.29vw;
+    border:0.08vw solid #EFEFEF;
+    padding:0.99vw 1.64vw;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 0.13vw 0.53vw 0;
+}
+
+.upper .pt2up form input{
+    border:0;
+    font:0.99vw epilogue-med;
+    color:#383C4E;
+    margin:auto 0;
+}
+
+.upper .pt2up form input::placeholder{color: #B3B8C2;}
+.upper .pt2up form input:focus{outline: 0;}
+
+.upper .pt2up form button{
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    margin:auto 0 auto 0.66vw;
+}
+
+.upper .pt2up form button img{
+    width:1.31vw;
+    height:1.31vw;
+    margin:0;
+}

@@ -1,0 +1,37 @@
+.credits{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0;
+}
+
+.lower{
+    display: flex;
+    width:100%;
+    margin:0;
+    padding: 1.97vw 0;
+    border-top: 0.07vw solid #EEEEEE;
+}
+
+.lower .plink{
+    font:0.85vw epilogue-med;
+    color:#A0A0B4;
+    margin:auto 0 auto 1.97vw;
+    text-decoration: none;
+}
+
+.lower p{
+    font:0.92vw epilogue-med;
+    color:#9A9AB0;
+    margin:auto;
+}
+
+.lower .social{
+    margin:auto 1.97vw auto 0;
+}
+
+.lower .social img{
+    width:1.64vw;
+    height: 1.64vw;
+    margin:0;
+}

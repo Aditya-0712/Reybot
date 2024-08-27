@@ -1,0 +1,86 @@
+.pricecard{
+    display: flex;
+    flex-wrap: wrap;
+    margin:3.29vw auto 6.57vw auto;
+    gap:0.99vw;
+}
+
+.cardpart{
+    display: flex;
+    flex-direction: column;
+    background-color: #022634c4;
+    border:0.07vw solid #0DD171;
+    border-radius: 0.46vw;
+    padding: 2.63vw 2.63vw 1.97vw 1.97vw;
+    max-width: 17.08vw;
+}
+
+.cardpart .title{
+    font:1.64vw epilogue-semibold;
+    color:white;
+    margin:0 auto 0 0;
+}
+
+.cardpart .low{
+    font:0.92vw epilogue-reg;
+    color:#D9D9D9;
+    margin:0.33vw auto 0 0;
+    max-height: 0.95vw;
+    line-height: 1.18vw;
+}
+
+.cardpart .price{
+    font: 1.97vw epilogue-bold;
+    color:white;
+    margin:3.29vw auto 0 0;
+}
+
+.cardpart .price span{
+    font:0.99vw epilogue-reg;
+    margin:auto 0;
+    position: relative;
+    bottom: 0.13vw;
+}
+
+.cardpart .secTitle{
+    font:1.05vw epilogue-med;
+    margin:1.97vw auto 0 0;
+    color:white;
+}
+
+.cardpart .point{
+    display: flex;
+    margin:1.31vw auto 0 0;
+}
+
+.cardpart .point img{
+    width:1.64vw;
+    height: 1.64vw;
+    margin:auto 0;
+}
+
+.cardpart .point p{
+    font:0.92vw epilogue-reg;
+    color:white;
+    margin:auto 0 auto 1.31vw;
+    line-height: 1.31vw;
+}
+
+.cardpart .space{
+    width:100%;
+    height: 3.29vw;
+}
+
+.cardpart .link{
+    font:1.05vw epilogue-bold;
+    color:white;
+    width:100%;
+    margin:auto 0 0 0;
+    text-align: center;
+    outline: 0.20vw solid #0DD171;
+    background: linear-gradient(180deg, #12131A 0%, #00202C 100%);
+    border-radius: 0.99vw;
+    padding: 0.99vw 0;
+}
+
+.cardpart .link:hover{background: linear-gradient(180deg, #2c2e3d 0%, #022e3e 100%);}

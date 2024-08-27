@@ -1,0 +1,57 @@
+.section10{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width:100%;
+    height: fit-content;
+    background-color: #022634;
+    background-image: url("../../images/forSection10/s10bg.png");
+    background-size: cover;
+}
+
+.section10 .heading{
+    font:3.61vw epilogue-semibold;
+    color:white;
+    margin: 6.57vw auto 0 auto;
+    text-align: center;
+}
+
+.section10 .heading span{
+    color:#0DD171;
+}
+
+.section10 .desc{
+    font:1.18vw epilogue-reg;
+    color:white;
+    margin:1.31vw auto 0 auto;
+    text-align: center;
+    line-height: 1.31vw;
+}
+
+.section10 .sec10pt1{
+    display: flex;
+    margin:1.31vw auto 0 auto;
+}
+
+.section10 .sec10pt1 .nonSelected, .section10 .sec10pt1 .selected{
+    font:1.31vw epilogue-reg;
+    color:white;
+    padding:0.66vw 1.31vw;
+    background-color: #022634;
+    border-radius: 0.33vw;
+    cursor: pointer;
+    margin:auto 0;
+}
+
+.section10 .sec10pt1 .nonSelected:hover{background-color: #083546;}
+
+.section10 .sec10pt1 .selected{
+    color: #022634;
+    background-color: white;
+    outline: 3px solid #0DD171;
+}
+
+.section10 .sec10pt1 span{
+    color:#0DD171; 
+    font-family: epilogue-bold;
+}
